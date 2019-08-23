@@ -22,7 +22,6 @@ mongoose.connect(process.env.URLDB, { useNewUrlParser: true, useCreateIndex:true
     console.log('Conexión a la base de datos correcta')
 });
 
-
 app.listen(process.env.PORT, () => {
     console.log("Escuchando puerto: ", process.env.PORT);
 });
