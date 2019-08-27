@@ -20,8 +20,6 @@ process.env.CADUCIDAD_TOKEN = 60 * 60 * 24 * 30;
 process.env.SEED = process.env.SEED || 'este-es-el-seed-desarrollo';
 
 
-
-
 //base de datos
 let urlDB;
 
@@ -32,3 +30,9 @@ if(process.env.NODE_ENV === 'dev'){
 }
 
 process.env.URLDB = urlDB;
+
+
+
+//GOOGLE CLIENT ID
+process.env.CLIENT_ID = process.env.CLIENT_ID || '29224828867-a6e85qec4kg7479h88tfpg8d2vnf3mmq.apps.googleusercontent.com';
+
